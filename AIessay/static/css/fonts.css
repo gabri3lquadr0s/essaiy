@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Lovelo-Line;
+    src: url('../fonts/Lovelo/Lovelo/Commercial/WEB/Lovelo-LineBold.eot');
+    src: url('../fonts/Lovelo/Lovelo/Commercial/WEB/Lovelo-LineBold.eot') format('embedded-opentype'),
+        url('../fonts/Lovelo/Lovelo/Commercial/WEB/Lovelo-LineBold.woff') format('woff'),
+        url('../fonts/Lovelo/Lovelo/Commercial/WEB/Lovelo-LineBold.woff2') format('woff2');    
+}
+@font-face {
+    font-family: Lovelo;
+    src: url('../fonts/Lovelo/Lovelo/Commercial/WEB/Lovelo-Black.eot');
+    src: url('../fonts/Lovelo/Lovelo/Commercial/WEB/Lovelo-Black.eot') format('embedded-opentype'),
+         url('../fonts/Lovelo/Lovelo/Commercial/WEB/Lovelo-Black.woff') format('woff'),
+         url('../fonts/Lovelo/Lovelo/Commercial/WEB/Lovelo-Black.woff2') format('woff2');
+}

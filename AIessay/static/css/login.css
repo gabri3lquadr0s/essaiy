@@ -1,0 +1,114 @@
+body{
+    background-color: #7d3aff;
+}
+main {
+    background-color: #e8e1e1;
+    width: 80%;
+    height: 800px;
+    margin: 80px;
+    border-radius: 36px;
+    pointer-events: auto;
+    z-index: 0;
+    position: fixed;
+    margin-left: 10%;
+}
+input{
+    border-radius: 12px;
+    border: 3px;
+    width: 400px;
+}
+#title{
+    margin-top: 5%;
+    margin-left: 5%;
+    color: #7a0df9;
+    font-size: 120px;
+    width: fit-content;
+    font-family: Lovelo-Line;
+    position: absolute;
+    line-height: 134px;
+}
+#sub{
+    color: #7a0df9;
+    margin-left: 7%;
+    font-size: 50px;
+    width: 600px;
+    position: fixed;
+    font-family: Lovelo;
+    bottom: 53%;
+    left: 7.2%;
+    z-index: 1;
+}
+#create{
+    position: absolute;
+    width: 25%;
+    font-family: Lovelo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;
+    text-align: center;
+    color: #7a0df9;
+    bottom: 17%;
+    right: 15%;
+}
+#err{
+    color: red;
+    text-align: center;
+    margin-top: 70px;
+}
+#formDiv{
+    margin-top: 28%;
+    margin-left: 5%;
+    width: fit-content;
+}
+.loginBtn{
+    font-size: large;
+    background-color: #7a0df9;
+    color: #e8e1e1;
+    height: 50px;
+}
+#loginForm{
+    margin-top: 20%;
+    width: fit-content;
+}
+#wave1{
+    position: fixed;
+    left: 0;
+    top: 0;
+    transform: rotate(180deg);
+    pointer-events: none;
+    z-index: 1;
+}
+#wave2{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1;
+}
+#icon{
+    position: fixed;
+    top: 10%;
+    right: 8%;
+    width: 921.6px;
+    height: 692.8px;
+}
+#info{
+    font-size: large;
+    position: fixed;
+    left: 35.5%;
+    bottom: 32.9%;
+    cursor: pointer;
+}
+#popup{
+    display: none;
+    position: absolute;
+}
+#popup2{
+    width: 100%;
+    height: 100%;
+    background-color: black 0.5;
+}
+#popupContent{
+    width: fit-content;
+}
