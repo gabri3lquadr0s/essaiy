@@ -1,0 +1,27 @@
+#globalNav{
+    background-color: #7d3aff;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    display: block;
+    margin: 0;
+    width: 100%;
+    min-width: 320px;
+    height: 100px;
+    max-height: 44px;
+    font-size: 17px;
+    /* position: absolute; */
+    text-align: center;
+}
+#globalNav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 35px;
+}
+#globalFooter{
+    background-color: #7d3aff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

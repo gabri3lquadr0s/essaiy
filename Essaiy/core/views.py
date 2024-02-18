@@ -68,4 +68,8 @@ def sendEssays(request):
 @login_required(login_url='login')
 def about(request):
     return render(request, 'core/about.html')
+
+@login_required(login_url='login')
+def mySpace(request):
+    return render(request, 'core/mySpace.html')
     

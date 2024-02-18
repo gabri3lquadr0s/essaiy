@@ -56,8 +56,7 @@ ROOT_URLCONF = 'Essaiy.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        #change this when prod comes
-        'DIRS': ['C:/Users/Gabriel/Desktop/Essaiy/Essaiy/templates'],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

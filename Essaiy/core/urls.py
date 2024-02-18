@@ -9,5 +9,6 @@ urlpatterns = [
     path('index', views.index, name='index'),
     path('myEssays', views.myEssays, name='myEssays'),
     path('sendEssays', views.sendEssays, name='sendEssays'),
+    path('mySpace', views.mySpace, name='mySpace'),
     path('about', views.about, name='about'),
 ]

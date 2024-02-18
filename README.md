@@ -6,6 +6,7 @@
 -Data Base structure
 -Data Base Integration
 -Change password logic
+-All views
 
 //AI\\
 -Contruct model
@@ -25,5 +26,6 @@ XXX-core/index visualXXX
 -core/login visual
 -core/myEssays visual
 -core/sendEssays visual
+-core/mySpace visual
 
 THERE IS A LOOOOT TO DO
