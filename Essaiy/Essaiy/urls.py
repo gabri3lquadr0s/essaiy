@@ -1,5 +1,5 @@
 """
-URL configuration for AIessay project.
+URL configuration for Essaiy project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -16,9 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.shortcuts import redirect
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('core/', include('core.urls')),
     path('ai/', include('ai.urls')),
+    path('', lambda request: redirect('core/'), name='home'),
 ]
